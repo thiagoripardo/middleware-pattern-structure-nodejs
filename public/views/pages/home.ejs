@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+    <% include ../partials/head %>
+
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-12" align="center">
+                    <div class="logo">
+                    <h1>middleware-pattern-structure-nodejs</h1>
+                    <br>
+                </div>
+                <p class="lead text-muted">Hello world! =D</p>
+                <div class="clearfix"></div>
+                
+                <br>
+                <div>
+                    <div class="btn-group btn-group-justified" >
+                        <a onclick="goBack()" class="btn btn-warning">Voltar</a>
+                        <a href="/home" class="btn btn-primary">Página Inicial</a>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+</html>
